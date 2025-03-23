@@ -1,5 +1,5 @@
 body {
-    font-family: Averia Libre, cursive;
+    font-family: VCR OSD Mono, monospace;
     font-size: 16px;
     line-height: 1.6;
     margin: 100px;
@@ -14,8 +14,14 @@ h1 {
     align-items: center;
 }
 
+h1, h2, h3 {
+    margin: 0;
+    line-height: 1.25;
+  }
+
 p { 
     display: flex; 
     justify-content: center;
     align-items: center;
 }
+
