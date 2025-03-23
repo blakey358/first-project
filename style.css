@@ -1,3 +1,10 @@
+@font-face {
+    font-family: 'VCR OSD Mono';
+    src: url('fonts/VCR_OSD_MONO.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
 body {
     font-family: VCR OSD Mono, monospace;
     font-size: 16px;
@@ -8,16 +15,13 @@ body {
     color: #333;
 }
 
-h1 {
+h1, h2, h3 {
+    margin: 0;
+    line-height: 1.25;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-
-h1, h2, h3 {
-    margin: 0;
-    line-height: 1.25;
-  }
 
 p { 
     display: flex; 
