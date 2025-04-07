@@ -1,27 +1,51 @@
 @font-face {
     font-family: 'VCR OSD Mono';
     src: url('fonts/VCR_OSD_MONO.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
 }
 
 body {
     font-family: VCR OSD Mono, monospace;
-    font-size: 16px;
+    font-size: 14px;
     line-height: 1.5;
-    margin: 100px;
-    padding: 20px;
-    background-color: #b3b3b3;
+    margin: 0 50px;
+    padding: 0 20px;
+    background-color: #ccc;
     color: #333;
 }
 
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+a {
+    color: #333;
+    text-decoration: none;
+    padding: 8px 15px;
+    border: 1px solid #333;
+    border-radius: 5px;
+}
+
+a:hover {
+    text-shadow: #95f5a9 1px 1px 0;
+    background-color: #ff69cd;
+}
+
+/* potential colours for link hover:
+green colour: #95f5a9
+pink colour: #ff69cd */
+
 h1, h2, h3 {
     margin: 0;
-    padding: 0;
+    padding: 20px;
     line-height: 1.5;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+h1:hover {
+    text-shadow: 0 0 20px #95fc83;
 }
 
 hr {
@@ -34,14 +58,15 @@ hr {
 
 p {
     margin: 0;
-    padding: 30px 30px;
+    padding: 20px;
 }
 
 img {
     height: 250px;
     width: 250px;
     display: block;
-    margin: auto;
+    margin: 50px auto;
     border: 2px solid #333;
     border-radius: 10px;
 }
+
