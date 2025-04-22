@@ -3,14 +3,35 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title> About </title>
+        <title> blorb ~ about </title>
         <link rel="stylesheet" href="../style.css">
+        <style>
+            #profile {
+                height: 30%;
+                width: 30%;
+                display: inline-flex;
+                border: 2px solid #333;
+                border-radius: 10px;
+                float: left;
+                margin: 10px;
+            }
+
+            #profile img {
+                width: 100%;
+                border-radius: 10px;
+            }
+
+            span {
+                font-weight: bold;
+                font-size: 1.2em;
+            }
+        </style>
     </head>
     <body>
-        <h1>blorb - about</h1>
+        <h1>about</h1>
 
         <nav>
-            <a href="index.html">home</a>
+            <a href="home.html">home</a>
             <a href="artefacts.html">artefacts</a>
             <a href="realms.html">realms</a>
             <a href="systems.html">systems</a>
@@ -21,8 +42,13 @@
         
         <hr>
     
-        <img src="../assets/images/substack pp - square.jpg" alt="blorb profile">
-
-        <p></p>
+        <div id="profile"><img src="../assets/images/substack pp - square.jpg" alt="blorb profile"></div>
+       
+        <p>
+            <span>Blorb</span> is a reflexpression of a pluradimensional poetics, 
+            contraformed by the negative space that hums between words. 
+            As we journey towards what this all might mean, 
+            we shall inevitably revisit the Nonsense Nebula forevermore...
+        </p>
     </body>
 </html>

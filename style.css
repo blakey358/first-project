@@ -8,7 +8,7 @@ body {
     font-size: 14px;
     line-height: 1.5;
     margin: 0 50px;
-    padding: 0 20px;
+    padding: 20 20px;
     background-color: #ccc;
     color: #333;
 }
@@ -61,12 +61,22 @@ p {
     padding: 20px;
 }
 
-img {
-    height: 250px;
-    width: 250px;
-    display: block;
-    margin: 50px auto;
+.title {
+    width: 20px;
+    height: 5px; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 35px auto;
+    padding: 50px 60px;
     border: 2px solid #333;
-    border-radius: 10px;
+    border-radius: 70px 70px 35px 35px;
+    background-color: rgba(255, 105, 205, 0.3);
+    
 }
 
+@media (max-width: 720px) {
+    nav {
+        display: none;
+    }
+}
